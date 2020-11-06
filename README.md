@@ -32,8 +32,11 @@ Desenvolvida com o framework Nuxt
 O arquivo main.py disponibiliza a API na porta 8081 e faz a leitura do mapeamento.json e do database2.json para prover os dados e os calculos nas rotas:
 
 ENDPOINT: /options (GET)
+
 ENDPOINT: /calculate (POST)
+
   JSON:
+  
   {
     "origin": 1,
     "destination": 12
