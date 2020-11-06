@@ -1,6 +1,6 @@
 # 3AT
 
-#MAKEBASE
+# MAKEBASE
 
 Lembre de definir o token do google nos arquivos!!!
 
@@ -23,11 +23,11 @@ Lê o json da etapa anterior
 Calcula as distâncias e se a distância for menor que 3km ele faz a consulta na API do google pra saber a distância de carro gerando então as arestas
 Salva as arestas
 
-#WEB
+# WEB
 
 Desenvolvida com o framework Nuxt
 
-#MAIN
+# MAIN
 
 O arquivo main.py disponibiliza a API na porta 8081 e faz a leitura do mapeamento.json e do database2.json para prover os dados e os calculos nas rotas:
 
